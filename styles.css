@@ -1,0 +1,298 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow: visible;
+}
+/*---Global classes--*/
+a{
+    text-decoration: none; /*removes the underline*/
+}
+ul{
+    list-style-type: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*--x-Global classes-x-*/
+
+/*-Navigation bar-*/
+.navigation-bar{
+    background: #1f2937;
+    padding: 0 10rem;
+    height: auto;
+}
+.navigation-bar .navigation-container{
+    justify-content: space-between;
+}
+.navigation-bar .navigation-bar-links{
+    display: flex;
+    margin: 0%;
+}
+.navigation-bar .navigation-bar-links .navigation-link{
+    padding: 1.6rem 1rem;
+    position: relative;
+}
+.navigation-bar .navigation-bar-links .navigation-link a{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E7EB;
+}
+
+.navigation-bar .header-logo img{
+    height: auto;
+    width: 160px;
+    position: relative;
+    right: 33px;
+    padding: 5px 5px 5px 5px;
+   
+    
+    
+    
+    
+    
+}
+/*.navigation-bar .first-section.flex-row{
+    
+}*/
+.navigation-bar .first-section{
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.navigation-bar .leftside-firstsection{
+    float: left;
+    width: 50%;
+
+}
+.navigation-bar .leftside-firstsection h1.main-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0%;
+}
+.navigation-bar .leftside-firstsection p.secondary-text{
+    font-size: 18px;
+    margin: 0%;
+    color: #E5E7EB;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navigation-bar .button button{
+    border: none;
+    background: blue;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    text-align: center;
+    cursor: pointer;
+}
+.navigation-bar .button button h3{
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+
+.navigation-bar .rightside-carousel img{
+    float: left;
+    height: auto;
+    width: 400px;
+}
+/*-x--Navigation bar--x-*/
+
+/*---Main Section---*/
+/*--Carousel--*/
+
+.main-section .carousel{
+    background: white;
+    margin: 0%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.main-section .carousel-headingtext{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-section .image-carousel{
+    position: relative;
+    width: 1100px;
+    margin-left: 50px;
+    margin-right: 55px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-gap: 20px;
+    
+}
+.main-section .image-carousel .image-and-text{
+    position: relative;
+    
+    border-radius: 40px;
+    
+    
+}
+.main-section .image-carousel .image-and-text .blog-image, .blog-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
+    border-radius: 40px ;
+    
+    
+    
+}
+.main-section .image-carousel .image-and-text .blog-image img{
+    border: 4px solid blue;
+}
+
+
+.main-section .image-carousel .image-and-text .image-title{
+    position: absolute;
+    width: 100%;
+    
+    top: 280px;
+    text-align: center;
+    
+    
+}
+/*-x-Carousel-x-*/
+
+.main-section .testimonial{
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    background: #E5E7EB;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+.main-section .testimonial .testimonial-content{
+    max-width: 750px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    height: auto;
+}
+.main-section .testimonial .testimonial-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.main-section .testimonial .username{
+    text-align: right;
+}
+
+.main-section .signup-for-product{
+    background-color: #3882F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    text-align: right;
+
+}
+.main-section .signup-for-product .sign-up-for-text{
+    position: relative;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    top: 15px;
+    
+    
+    
+}
+.main-section .signup-for-product .sign-up-for-text h4{
+    margin-bottom: 2.5px;
+}
+.main-section .signup-for-product .sign-up-for-text p{
+    margin-top: 2.5px;
+}
+
+
+.main-section .signup-for-product .button button{
+    position: relative;
+    
+    bottom: 30px;
+    background-color: #3882F6;
+    border: solid 1.5px white;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    
+    
+}
+.main-section .signup-for-product .button button h3{
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: lighter;
+    
+}
+
+
+/*--x-Main Section-x--*/
+
+/*--Footer---*/
+footer.footer{
+    background: #1F2937;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: -19.582px;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+footer.footer .copyright{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+footer.footer .copyright h4{
+    font-size: 15px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+/*--x-Footer-x--*/

@@ -4,83 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Landing-page</title>
 </head>
 <body>
+    <!----Navigation menu----->
     <nav class="navigation-bar">
-        <div class="navigation-container">
+        <div class="navigation-container flex-row">
             <div class="header-logo">
-                <img src="./images/Mc.jpg" alt="A photo of the MC logo">
+                <img src="./images/logo/Logo.png" alt="A photo of the MC logo">
             </div>
-            <div class="navigation-bar-links">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./index.html">Contact</a></li>
-                    <li><a href="./index.html">About</a></li>
+            <div>
+                <ul class="navigation-bar-links">
+                    <li class="navigation-link"><a href="./index.html">Home</a></li>
+                    <li class="navigation-link"><a href="./index.html">Contact</a></li>
+                    <li class="navigation-link"><a href="./index.html">About</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <div class="first-section">
-        <div class="leftside-firstsection">
-        <h1><p>This Website is awesome</p></h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color contrast is lower contrast</p>
-        <span class="button">
-            <button><h3>Sign up</h3></button>
-        </span>
+        <div class="first-section flex-row">
+            <div class="leftside-firstsection">
+                <h1 class="main-text">A Great Place for Enthusiasts</h1>
+                <p class="secondary-text">Experience it as if you are the car. Read and Learn more about cars. You cannot get the ONE until you are sure about its features.</p>
+                <span class="button">
+                    <button><h3>Sign up</h3></button>
+                </span>
+            </div>
+            <div class="rightside-carousel">
+                <img src="./images/Assets/blog54.jpg" alt="An image of a car">
+            </div>
+            
         </div>
-        <div class="rightside-carousel">
-            <img src="./images/Assets/blog54.jpg" alt="An image of a car">
+    </nav>
+    <!--x--Navigation menu--x--->
+
+<!---Main section--->
+    <div class="main-section">
+        <div class="carousel">
+            <div class="carousel-headingtext">
+                <h3>Car blogs</h3>
+            </div>
+            <div class="image-carousel">
+                <div class="image-and-text" data-aos="fade-right" data-aos-delay="200">
+                    <div  class="blog-image">
+                        <img src="./images/Assets/blog55.jpg" alt="">
+
+                    </div>
+                    <div class="image-title">
+                        <p>Read and Discover the best way to wash your BEAUTY. Do not let them mishandle your Car.</p>
+            
+                    </div>
+                    
+                </div>
+                <div class="image-and-text" data-aos="fade-in" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="./images/Assets/blog56.jpg" alt="">
+
+                    </div>
+                    <div class="image-title">
+                        <p>Discover the best way to customize your vehicle and still do it at a reasonable cost.</p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="image-and-text" data-aos="fade-left" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="./images/Assets/blog57.jpg" alt="">
+
+                    </div>
+                    <div class="image-title">
+                        <p>Get to know your limits. Discover and know how fast your car can go. Faster than a Cheetah?</p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="image-and-text" data-aos="fade-right" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="./images/Assets/blog58.jpg" alt="">
+
+                    </div>
+                    <div class="image-title">
+                        <p>Take it to the wild and still feel like you are on the soft track. Get to know off road vehicles.</p>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+
+        </div>
+        
+        
+            
+        
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <div class="testimonial-text">
+                    <p>This article really helped me. I had just gotten my first huge salary and I was now ready to comfortably buy my first Car. However, I was confused on which car to buy. Luckily I stumbled upon this site and now I am driving a Nissan GTR and Enjoying every moment of it.</p>
+        
+                </div>
+                <div class="username">
+                    <h4>~Mc The Great</h4>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-signup">
+            <div class="signup-for-product">
+                <div class="sign-up-for-text">
+                    <h4>Call to action!</h4>
+                    <p>Sign up for our product by clicking thet button right over there!</p>
+                </div>
+                
+                    
+                
+                <span class="button">
+                    <button><h3>Sign up</h3></button>
+                </span>
+            </div>
         </div>
         
     </div>
-
-    <div class="carousel">
-        <div class="carousel-headingtext">
-            <h3>Some information</h3>
-        </div>
-        <div class="image-carousel">
-            <div class="image-and-text">
-                <img src="./images/Assets/blog55.jpg" alt="">
-                <p>this is some subtext under an image</p>
-            </div>
-            <div class="image-and-text">
-                <img src="./images/Assets/blog56.jpg" alt="">
-                <p>this is some subtext under an image</p>
-            </div>
-            <div class="image-and-text">
-                <img src="./images/Assets/blog57.jpg" alt="">
-                <p>this is some subtext under an image</p>
-            </div>
-            <div class="image-and-text">
-                <img src="./images/Assets/blog58.jpg" alt="">
-                <p>this is some subtext under an image</p>
-            </div>
-            
-            
-            
-        </div>
-    </div>
-    <div class="testimonial">
-        <div class="testimonial-text">
-            <p>This is a testimonial from a customer.</p>
-
-        </div>
-        <div class="username">
-            <h4>Mc The Great</h4>
-        </div>
-    </div>
-    <div class="signup-for-product">
-        <div class="advert-text">
-            <h5>Call to action. It's time!</h5>
-            <p>Sign up for our product by clicking right there!</p>
-            <!--add an icon of an arrow or an animation in a seperate div between text and button-->
-        </div>
-        <span class="button">
-            <button><h3>Sign up</h3></button>
-        </span>
-    </div>
-    <footer>
+<!--x-Main section-x-->
+    
+    <footer class="footer">
         <div class="copyright">
             <h4>Copyright@ The Odin Project 2021</h4>
         </div>
